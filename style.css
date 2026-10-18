@@ -1,0 +1,116 @@
+@font-face {
+    font-family:Font ;
+    src: url(PurplePurse-Regular.ttf);
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.container {
+    background-color: bisque;
+    min-height: 95vh;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(60, 22, 95);
+    text-decoration: underline;
+    font-size: 32px;
+    margin: 10px 0 20px;
+}
+
+.box {
+    width: 160px;
+    height: 160px;
+    text-align: center;
+    color: black;
+    border: 2px solid;
+    position: absolute;
+}
+
+.box1 {
+    background-color: gray;
+    border-color: #2f2929;
+    top: 80px;
+    left: 5px;
+}
+
+.box2 {
+    background-color: peru;
+    border-color: rgb(161, 61, 25);
+    top: 80px;
+    left: 43%;
+}
+
+.box3 {
+    background-color: yellowgreen;
+    border-color: #156e1a;
+    top: 80px;
+    right: 5%;
+}
+
+.box4 {
+    background-color: rosybrown;
+    border-color: rgb(108, 65, 51);
+    top: 240px;
+    left: 190px;
+}
+
+.box5 {
+    background-color: skyblue;
+    border-color: rgb(23, 60, 89);
+    top: 240px;
+    left: 32%;
+}
+
+.box6 {
+    background-color: hotpink;
+    border-color: rgb(86, 13, 69);
+    top: 240px;
+    left: 53.8%;
+}
+
+.box7 {
+    background-color: plum;
+    border-color: rgb(143, 53, 74);
+    top: 240px;
+    right: 15%;
+}
+
+.box8 {
+    background-color: #ffff80;
+    border-color: rgb(96, 97, 18);
+    top: 400px;
+    left: 395px;
+}
+
+.box9 {
+    background-color: deeppink;
+    border-color: #3e0f1c;
+    top: 400px;
+    left: 64.5%;
+}
+span{
+    text-decoration: dotted;
+    color: #1a1a1a;
+    font-family: font;
+    font-size: large;
+}
+h1{
+    font-family: font;
+    text-decoration: none;
+    color: #000;
+}
